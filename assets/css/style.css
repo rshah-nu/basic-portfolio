@@ -14,7 +14,7 @@ body {
 #headerElement {
 	width: 960px;
 	background-color: white;
-	height: 82px;
+	/*height: 82px;*/
 	margin: 0 0 0 150px;
 	padding: 0px;
 }
