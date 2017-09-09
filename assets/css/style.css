@@ -8,7 +8,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-	width: 960px;
+	max-width: 960px;
+}
+
+header {
+
 }
 
 #yourName {
@@ -27,7 +31,7 @@ nav ul {
    	margin: 0; 
    	height: 82px;
    	float: right;
-   	padding: 41px 0px;
+   	padding: 38px 0px;
 }
 
 nav ul li {
@@ -35,8 +39,33 @@ nav ul li {
 	padding-left: 15px;
 }
 
-#mainContent {
+#mainSection {
 	clear: both;
 	overflow: auto;
+	background-image: url(../images/circles.png);
+	border-top: 2px solid #777777;
+}
+
+#mainContent {
+	max-width: 650px;
+	margin: 35px 0px 35px 150px;
+	background: white;
+	border: 1px solid #777777;
+}
+
+#aboutMe {
+	color: #4aaaa5;
+	padding: 30px 0px;
+	border-bottom: 3px solid #777777;
+	margin: 0px 28px;
+}
+
+#headshot {
+	float: left;
+	padding: 20px 20px;
+}
+
+#mainContent p {
+	padding: 20px 20px;
 }
 
