@@ -135,3 +135,24 @@ form {
   border-radius: 0px;
   border: none;
 }
+
+#portImages {
+  margin-left: 30px;
+  margin-top: 42px;
+}
+
+#portImage2 {
+  margin-left: 40px;
+}
+
+#portImage4 {
+  margin-left: 40px;
+}
+
+.portHeights {
+  margin-top: 58px;
+}
+
+#portImage5{
+  margin-bottom: 30px;
+}
