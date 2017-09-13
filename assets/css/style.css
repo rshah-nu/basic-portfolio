@@ -32,7 +32,7 @@ nav ul {
     list-style-type: none;
     color: #777777;
    	display: inline-block;
-   	margin: 0; 
+   	margin: 0;
    	height: 82px;
    	float: right;
    	padding: 38px 0px;
@@ -52,7 +52,7 @@ nav ul li {
 }
 
 #mainContent {
-	max-width: 650px;
+	width: 650px;
 	margin: 35px 0px 35px 150px;
 	background: #ffffff;
 	border: 1px solid #dddddd;
@@ -102,4 +102,36 @@ nav ul li {
 	text-align: center;
 	border-top: 8px solid #4aaaa5;
 	padding: 40px;
+}
+
+label {
+  display: block;
+  padding: 10px 0;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+
+}
+
+textarea {
+  width: 100%;
+}
+
+form {
+  margin-top: 15px;
+  padding: 0 25px;
+}
+
+.submitBtn {
+  width: 100px;
+  height: 41px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 15px;
+  margin: 12px 0 25px 0;
+  border-radius: 0px;
+  border: none;
 }
