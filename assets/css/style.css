@@ -136,23 +136,47 @@ form {
   border: none;
 }
 
-#portImages {
+.images {
+  float: left;
   margin-left: 30px;
-  margin-top: 42px;
+  margin-top: 40px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  position: relative;
+
 }
 
-#portImage2 {
-  margin-left: 40px;
+.portfolioText {
+  height:57px;
+  width:256px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 14px;
 }
 
-#portImage4 {
-  margin-left: 40px;
+#portfoliotext1 {
+  position: absolute;
+  top: 122px;
 }
 
-.portHeights {
-  margin-top: 58px;
+#portfoliotext2 {
+  position: absolute;
+  top: 122px;
 }
 
-#portImage5{
-  margin-bottom: 30px;
+#portfoliotext3 {
+  position: absolute;
+  top: 122px;
+}
+
+#portfoliotext4 {
+  position: absolute;
+  top: 122px;
+}
+
+#portfoliotext5 {
+  position: absolute;
+  top: 122px;
 }
