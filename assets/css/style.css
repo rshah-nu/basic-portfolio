@@ -30,7 +30,7 @@ body {
 
 nav ul {
     list-style-type: none;
-    color: #777777;
+
    	display: inline-block;
    	margin: 0;
    	height: 82px;
@@ -178,4 +178,16 @@ form {
 #portfoliotext5 {
   position: absolute;
   top: 122px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.portLinks {
+  color: white;
+}
+
+.aboutLinks {
+color: #777777;
 }
