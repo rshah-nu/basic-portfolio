@@ -7,10 +7,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 }
 
-body {
-
-}
-
 #headerElement {
 	width: 960px;
 	background-color: white;
@@ -30,7 +26,6 @@ body {
 
 nav ul {
     list-style-type: none;
-
    	display: inline-block;
    	margin: 0;
    	height: 82px;
